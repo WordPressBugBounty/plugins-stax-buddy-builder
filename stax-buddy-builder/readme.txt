@@ -3,8 +3,8 @@ Contributors: staxwp, seventhqueen, codezz, rtynio, geowrge
 Tags: elementor, buddypress, buddypress builder, buddypress elementor, elementor buddypress, bp builder
 Requires at least: 5.0
 Requires PHP: 7.0
-Tested up to: 6.2
-Stable tag: 1.7.4
+Tested up to: 6.7
+Stable tag: 1.8.0
 License: GLPv2 or later
 
 Design, build and customize your BuddyPress site with Elementor builder.
@@ -96,6 +96,9 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 3. **Infinite templates** but set the one that is active on the site
 
 == Changelog ==
+
+= 1.8.0 =
+* Strenghten the shortcode functionality logic so templates can't be viewed if you don't have the proper permissions.
 
 = 1.7.4 =
 * Add security nonce check to settings page.
