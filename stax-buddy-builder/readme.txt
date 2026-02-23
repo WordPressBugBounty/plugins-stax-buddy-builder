@@ -1,11 +1,11 @@
 === BuddyPress Builder for Elementor - BuddyBuilder ===
 Contributors: staxwp, seventhqueen, codezz, rtynio, geowrge
-Tags: elementor, buddypress, buddypress builder, buddypress elementor, elementor buddypress, bp builder
+Tags: elementor, buddypress, buddypress builder, buddypress elementor, elementor buddypress
 Requires at least: 5.0
-Requires PHP: 7.0
-Tested up to: 6.7
-Stable tag: 1.8.0
-License: GLPv2 or later
+Requires PHP: 7.4
+Tested up to: 6.9
+Stable tag: 1.9.0
+License: GPLv2 or later
 
 Design, build and customize your BuddyPress site with Elementor builder.
 
@@ -97,8 +97,13 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 
 == Changelog ==
 
-= 1.8.0 =
-* Strenghten the shortcode functionality logic so templates can't be viewed if you don't have the proper permissions.
+= 1.9.0 =
+* Compatibility: WordPress 6.9
+* Compatibility: Elementor 3.35
+* Compatibility: PHP 7.4 minimum required
+* Fix: Translation loading moved to init hook for WordPress 6.7+ compatibility
+* Fix: Readme tags reduced to 5 (WordPress.org limit)
+* Fix: License field corrected to GPLv2
 
 = 1.7.4 =
 * Add security nonce check to settings page.
