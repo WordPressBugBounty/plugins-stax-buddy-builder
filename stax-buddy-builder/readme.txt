@@ -4,7 +4,7 @@ Tags: elementor, buddypress, buddyboss, community builder, buddypress builder
 Requires at least: 5.0
 Requires PHP: 7.4
 Tested up to: 7.1.4
-Stable tag: 1.9.3
+Stable tag: 1.9.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -120,6 +120,10 @@ Visit the [WordPress.org support forum](https://wordpress.org/support/plugin/sta
 3. **Multiple Templates** — create unlimited templates and set the active one
 
 == Changelog ==
+
+= 1.9.4 =
+* Security: dismissing an admin notice now checks a security token and accepts only BuddyBuilder's own notices.
+* Fix: help and documentation links point to the current documentation at staxwp.com/docs/buddybuilder/.
 
 = 1.9.3 =
 * Fix: Fatal error on BuddyPress pages when the BuddyPress page settings (bp-pages option) are missing; deleted directory pages are skipped and nested directory pages (for example community/members) are detected.
@@ -316,6 +320,9 @@ Enable/disable the feature by editing the members/groups navigation widget
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.9.4 =
+Security fix for the admin notice dismiss request. Recommended for all users.
 
 = 1.9.3 =
 Bug fix release: fixes a fatal error on BuddyPress pages when the BuddyPress page settings are missing, plus PHP 8 and BuddyPress 12 notices. Recommended for all users.
